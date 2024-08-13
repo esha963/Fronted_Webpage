@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    font-family: sans-serif, Arial;
+    border: border-box;
+}
+
+body {
+    background-image: url(background_img.jpg);
+    background-size: cover;
+}
+
+/* Navbar */
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+
+
+}
+
+/* Box 1 */
+.nav-button a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    text-shadow: 0px 0px 10px white;
+}
+
+.nav-button button {
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    border: 1.5px solid white;
+
+}
+
+.nav-button button:hover {
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px blue;
+
+}
+
+/* Box 2 */
+.nav-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-menu ul li {
+    margin-left: 100px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    font-size: larger;
+    text-shadow: 0px 0px 10px rgb(223, 210, 210);
+
+}
+
+.underline-item:hover {
+    text-decoration: underline whitesmoke;
+}
+
+/* ======================================================================================= */
+
+
+/* hero section */
+.hero-section {
+    height: 300px;
+    width: 62%;
+    margin-top: 130px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.hero-section:hover {
+    box-shadow: 0px 0px 20px blue;
+
+}
+
+/* hero-content */
+.hero-section h1 {
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.hero-section p {
+    color: whitesmoke;
+    margin-top: -50px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.hero-section button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 900;
+
+}
+
+.hero-button {
+    margin-top: -130px;
+}
+
+.hero-section button {
+    border-radius: 15px;
+    height: 30px;
+    width: 120px;
+    border: 3px solid white;
+    background-color: transparent;
+}
+
+/* ======================================================================================================= */
+
+/* footer */
+footer {
+    text-align: center;
+    margin-top: 35px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px rgb(214, 214, 224);
+    font-style: italic;
+}
